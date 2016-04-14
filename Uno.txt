@@ -1,0 +1,9 @@
+<<!DOCTYPE html>  <!-- especificar la version de html-->
+<html>
+<head>
+	<title>Ejercicio</title>
+</head>
+<body>
+      <a href="http://www.facebook.com">click para ir a Facebook</a>
+</body>
+</html>
