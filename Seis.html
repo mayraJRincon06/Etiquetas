@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio</title>
+</head>
+<body>
+  <table>
+  	<colgroup> 
+  	  <col width="300" span="12" style="background-color: red" align="center">
+  	  <col width="300" span="12" style="background-color: yellow" align="left">
+  	</colgroup>
+
+  	<tr>
+  		<th>Datos</th>
+  		<th>Nombre</th>
+  		<th>Apellidos</th>
+  	</tr>
+  	<tr>
+  		<th>Celular</th>
+  		<th>Cedula</th>
+  		<th>Direccion</th>
+  	</tr>
+  </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Command</title> 
+</head>
+<body>
+ <menu type="toolbar">
+ <command type = "radio" radiogroup = "alignment" checked= "checked" label = "sena" onclick = "setAling('Hola Adsi') "> <button>Mostrar Mensaje</button>
+ </comand> <br>
+
+<command type = "radio" radiogroup = "alignment" checked= "checked" label = "correo" onclick = "setAling('1020185') "> <button>Mensaje</button>
+ </comand> 
+ </menu>
+   <Script type = "text/javascript">
+   function setAling (texto){
+   	alert ("Parametro enviado " + texto);
+   }
+</Script>
+ </body>
+</html> 
+
+<<!DOCTYPE html>
+<html>
+<head> <!--Etiqueta datagrid especificar cuadriculas de datos-->
+	<title> ******</title>
+</head>
+<body>
+<ol>
+	 <li>(Nombre)</li>
+	 <li>(Apellido)</li>
+	 <li>(Cedula)</li>
+
+	<ol style="list-style-type:lower-alpha;">
+		
+	 <li>(Mayra)</li>
+	 <li>(Rincon)</li>
+	 <li>(1053587008)</li>
+	</ol>
+	  <li>(datagrid)</li>
+</ol>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+   <!-- datalist Autocompleta la lista-->
+	<title> **//**</title>
+</head>
+<body>
+   <form action="demo_form.asp" method="get">
+   	<input list="browsers" name="browser">
+     <datalist id= "browsers">
+      <option value="Internet Explored">
+      <option value="Chrome">
+      <option value="Firefox">
+      <option value="Opera">
+      <option value="1020185">  	
+     </datalist>
+
+     <input type="submit">
+     	
+   </form>
+</body>
+</html>
